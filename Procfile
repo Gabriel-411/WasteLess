@@ -1,2 +1,2 @@
 web: bundle exec puma -C config/puma.rb
-postdeploy: rails db: migrate && rails db: seed
+postdeploy: rails db:migrate && rails db:seed
