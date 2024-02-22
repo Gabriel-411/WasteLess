@@ -30,6 +30,10 @@
   .wasteless{
     margin-top: 20%;
     font-size: 60px;
+    .image-container img {
+      height: 200px;
+      width: 300px;
+    }    
   }
   
   p {
