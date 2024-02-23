@@ -10,23 +10,16 @@
 <h1>Missions</h1>
 
 
-<div class="mission">
-  <% @missions.each do |mission| %>
+
+  <% @missions.each do |mission|, class: 'mission'%>
     <%= render mission %>
     <p>
       <%= link_to "Show this mission", mission %>
     </p>
-  <div class="rectangle">
-      <button class="rectangle_effectue">
-        <p class="effectue">EFFECTUE</p>
-      </button>
-  </div>
+ 
   <% end %>
-</div>
 
-<div class="new_mission">
-  <%= link_to "New mission", new_mission_path %>
-</div>
+  <%= link_to "New mission", new_mission_path, class: 'new_mission' %>
 
 <body>
   <h1 class="titre_1">Progrès</H1>
