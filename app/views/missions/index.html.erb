@@ -9,6 +9,7 @@
 
 <h1>Missions</h1>
 
+
 <div class="mission">
   <% @missions.each do |mission| %>
     <%= render mission %>
@@ -16,9 +17,6 @@
       <%= link_to "Show this mission", mission %>
     </p>
   <div class="rectangle">
-      <p class="date_1">JUIL.</p>
-      <p class="date_1">02</p>
-      <p class="tache">Tâche 4</p>
       <button class="rectangle_effectue">
         <p class="effectue">EFFECTUE</p>
       </button>
@@ -26,7 +24,9 @@
   <% end %>
 </div>
 
-<%= link_to "New mission", new_mission_path %>
+<div class="new_mission">
+  <%= link_to "New mission", new_mission_path %>
+</div>
 
 <body>
   <h1 class="titre_1">Progrès</H1>
