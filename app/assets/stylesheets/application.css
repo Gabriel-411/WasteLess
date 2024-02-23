@@ -146,5 +146,14 @@
 
    .date_1{
       color: rgba(159, 193, 49, 1);
-      
+      margin-left: 2%;
+      font-size: 30px;
+      font-weight: bolder;
+   }
+
+   .tache{
+    color: #fff;
+    margin-left: 5%;
+    font-size: 30px;
+    font-weight: bold;
    }
